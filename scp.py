@@ -88,7 +88,7 @@ while(1):
 			cv2.putText(img,"green  color",(x,y),cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0,128,0))  
             
            
-    	#cv2.imshow("Redcolour",red)
+    	
     	cv2.imshow("Color Tracking",img)
     	#cv2.imshow("red",res) 	
     	if cv2.waitKey(10) & 0xFF == ord('q'):
